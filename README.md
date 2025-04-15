@@ -1,0 +1,1 @@
+此Repository用來記錄Git與GitHub相關指令或功能練習之用
