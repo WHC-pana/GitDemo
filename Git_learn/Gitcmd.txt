@@ -1,0 +1,46 @@
+# 第一次將local repository推送到GitHub上
+git remote add origin [Repository URL]
+git remote add origin https://github.com/WHC-pana/GitDemo.git
+
+# 將GitHub上已經存在的Repository拉到local端
+git clone [Repository URL]
+git clone https://github.com/WHC-pana/GitDemo.git
+
+# 將local更改的檔案加入stage
+git add [File name]
+git add Test.txt
+
+# 將已經加到stage的變更寫入local repository
+git commit -m [Commit descript]
+git commit -m "First commit"
+
+# 將local repository推送到GitHub上
+git push -u origin master
+git push -u origin main
+git push origin
+
+# 將GitHub上repository的變更拉到local repository
+git pull
+
+# 在local repository上建立新的分支
+git branch [branch name]
+git branch feature1
+git branch
+
+# 切換分支
+git checkout [branch name]
+git checkout feature1
+
+# 合併分支到master(main)
+git checkout master
+git merge feature1
+
+# 建立Tag
+git tag -a [版本] -m "[版本訊息]" [commit hash id]
+git tag -a v0.1 -m "0.1 release" 990e0bd
+
+# 檢視過去的提交紀錄
+git log --oneline --graph --decorate -all
+
+# 推送所有標籤到GitHub上
+git push origin --tags

@@ -1,0 +1,14 @@
+[Autolink references]
+功能位置: Settings|Autolink references
+設定方法: 在Add new畫面裡的Target URL欄位填入要指向的網址與Query參數，再按下Add autolink referenc按鈕
+Example: https://example.com/TICKET?Query=<num>
+使用方式: 輸入TICKET-<num>
+新的使用方式: [Description](URL)
+
+[Permanent link]
+用途: 一次性標註特定範圍的程式碼內容並產生連結，常用於Code Review
+設定方法: 在Repository功能頁上點Code標籤，開啟任一程式碼檔案，滑鼠點選需要標註的行數，再開啟右鍵選單，選擇Copy permalink。
+若要一次標註多行，可以先點選需要標註的程式碼區塊的第一行，再使用Shift+滑鼠左鍵圈選範圍，再開啟右鍵選單，選擇Copy permalink。
+
+[Saved replies]
+功能位置: 右上角Settings|Saved replies
